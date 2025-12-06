@@ -16,5 +16,11 @@
 	},
 	"build": {
 		"command": "npm run build"
-	}
+	},
+  "routes": [
+    {
+      "pattern": "lunas.darioarzaba.com",
+      "custom_domain": true
+    }
+  ]
 }
