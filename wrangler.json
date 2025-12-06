@@ -1,16 +1,12 @@
 {
 	"$schema": "./node_modules/wrangler/config-schema.json",
 	"name": "site-lunas",
-	"main": "build/server/index.js",
 	"compatibility_date": "2025-10-08",
 	"compatibility_flags": ["nodejs_compat"],
 	"observability": {
 		"enabled": true
 	},
 	"upload_source_maps": true,
-	"assets": {
-		"directory": "build/client"
-	},
 	"vars": {
 		"VALUE_FROM_CLOUDFLARE": "Hello from Cloudflare"
 	}
