@@ -13,5 +13,8 @@
 	},
 	"vars": {
 		"VALUE_FROM_CLOUDFLARE": "Hello from Cloudflare"
+	},
+	"build": {
+		"command": "npm run build"
 	}
 }
