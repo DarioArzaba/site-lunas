@@ -12,7 +12,7 @@ declare module "react-router" {
 
 const requestHandler = createRequestHandler(
 	build,
-	import.meta.env.MODE,
+	"production",
 );
 
 export default {
